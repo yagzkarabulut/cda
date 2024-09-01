@@ -3918,3 +3918,34 @@ label.error {
 .mt-6 {
   margin-top: 90px;
 }
+
+@media (max-width: 500px) {
+  .tp-caption .size {
+    font-size: 35px; /* Başlık metni boyutunu küçültür */
+    line-height: 40px; /* Satır yüksekliğini ayarlar */
+  }
+
+  .tp-caption .medium_light_white {
+    font-size: 20px; /* Orta büyüklükteki metin boyutunu küçültür */
+    line-height: 30px;
+  }
+
+  .tp-caption .small_light_white {
+    font-size: 12px; /* Küçük metin boyutunu küçültür */
+    line-height: 18px;
+  }
+
+  /* Ekstra padding ve margin ayarlamaları */
+  .tp-caption .size,
+  .tp-caption .medium_light_white,
+  .tp-caption .small_light_white {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .tp-caption p.size2 {
+    font-size: 14px; /* Paragraf boyutunu küçültür */
+    line-height: 18px;
+    margin-left: 10px; /* Sağladığınız margin classını ayarlar */
+  }
+}
